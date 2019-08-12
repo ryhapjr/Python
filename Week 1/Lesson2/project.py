@@ -29,7 +29,6 @@ change = float(input('Please insert your cash amount: '))
 received_money = change - grand_total
 
 print(items)
-print(items_price)
-print(sub_total)
-print(grand_total)
+print(round(sub_total, 2))
+print(round(grand_total, 2))
 print(round(received_money, 2))
